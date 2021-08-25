@@ -1,8 +1,8 @@
 package io.digibyte.presenter.fragments.models;
 
 import android.annotation.SuppressLint;
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 import android.text.TextUtils;
 
 import com.platform.entities.TxMetaData;

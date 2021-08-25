@@ -1,6 +1,6 @@
 package io.digibyte.presenter.activities.intro;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 
 import io.digibyte.R;

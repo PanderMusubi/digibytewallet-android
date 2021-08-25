@@ -1,7 +1,7 @@
 package io.digibyte.presenter.customviews;
 
 import android.content.Context;
-import android.support.design.widget.TabLayout;
+import com.google.android.material.tabs.TabLayout;
 import android.util.AttributeSet;
 
 /**

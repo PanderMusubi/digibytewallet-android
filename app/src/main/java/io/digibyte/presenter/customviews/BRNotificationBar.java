@@ -2,7 +2,7 @@ package io.digibyte.presenter.customviews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 
 import io.digibyte.R;
@@ -32,7 +32,7 @@ import io.digibyte.presenter.activities.BreadActivity;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-public class BRNotificationBar extends android.support.v7.widget.Toolbar {
+public class BRNotificationBar extends androidx.appcompat.widget.Toolbar {
 
     private static final String TAG = BRNotificationBar.class.getName();
 

@@ -1,6 +1,6 @@
 package io.digibyte.tools.list.items;
 
-import android.databinding.BindingAdapter;
+import androidx.databinding.BindingAdapter;
 import android.graphics.Color;
 import android.widget.ImageView;
 import android.widget.TextView;

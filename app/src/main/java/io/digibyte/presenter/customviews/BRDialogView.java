@@ -5,7 +5,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.crashlytics.android.Crashlytics;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 import io.digibyte.R;
 import io.digibyte.tools.manager.BRReportsManager;
@@ -108,7 +108,8 @@ public class BRDialogView extends DialogFragment {
         try {
             dismissAllowingStateLoss();
         } catch (IllegalStateException e) {
-            Crashlytics.logException(e);
+            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
+            crashlytics.recordException(e);
         }
     }
 
@@ -163,7 +164,8 @@ public class BRDialogView extends DialogFragment {
         try {
             dismissAllowingStateLoss();
         } catch(IllegalArgumentException e) {
-            Crashlytics.logException(e);
+            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
+            crashlytics.recordException(e);
         }
     }
 }

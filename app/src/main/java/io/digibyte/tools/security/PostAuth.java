@@ -2,10 +2,10 @@ package io.digibyte.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
-import com.crashlytics.android.Crashlytics;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.platform.entities.TxMetaData;
 import com.platform.tools.KVStoreManager;
 
@@ -167,7 +167,8 @@ public class PostAuth {
             Arrays.fill(seed, (byte) 0);
             seed = null;
         } catch (Exception e) {
-            Crashlytics.logException(e);
+            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
+            crashlytics.recordException(e);
         }
     }
 

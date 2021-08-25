@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\Work\\DigiByte\\digiandroid\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "core-lib-Debug-armeabi-v7a": {
+      "artifactName": "core-lib",
+      "buildCommandComponents": [
+        "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+        "core-lib"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj\\armeabi-v7a\\libcore-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -4,13 +4,15 @@ import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.LayoutTransition;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+
+import androidx.core.view.GravityCompat;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v7.content.res.AppCompatResources;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.appcompat.content.res.AppCompatResources;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
@@ -299,7 +301,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
     @OnClick(R.id.nav_drawer)
     void onNavButtonClick(View view) {
         try {
-            bindings.drawerLayout.openDrawer(Gravity.START);
+            bindings.drawerLayout.openDrawer(GravityCompat.START);
         } catch (IllegalArgumentException e) {
             //Race condition inflating the hierarchy?
         }
@@ -405,8 +407,8 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
 
     @Override
     public void onBackPressed() {
-        if (bindings.drawerLayout.isDrawerOpen(Gravity.START)) {
-            handler.post(() -> bindings.drawerLayout.closeDrawer(Gravity.START));
+        if (bindings.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            handler.post(() -> bindings.drawerLayout.closeDrawer(GravityCompat.START));
         } else {
             super.onBackPressed();
         }

@@ -1,0 +1,7 @@
+Executable : E:\adt-bundle-windows-x86_64-20140321\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Work\DigiByte\digiandroid\app\.cxx\cmake\digibyteDebug\x86
+core-lib
+jvmArgs : 
+

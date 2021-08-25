@@ -4,10 +4,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
-import com.crashlytics.android.Crashlytics;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 import java.math.BigDecimal;
 import java.util.Locale;
@@ -115,7 +115,8 @@ public class BRSender {
 //            }
             catch (SomethingWentWrong somethingWentWrong) {
                 somethingWentWrong.printStackTrace();
-                Crashlytics.logException(somethingWentWrong);
+                FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
+                crashlytics.recordException(somethingWentWrong);
                 BRExecutor.getInstance().forMainThreadTasks().execute(
                         () -> BRDialog.showCustomDialog(app,
                                 app.getString(R.string.Alerts_sendFailure),

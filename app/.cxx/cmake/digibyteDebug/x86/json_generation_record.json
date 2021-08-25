@@ -1,0 +1,23 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 17 min SDK version: x86",
+    "file": "D:\\Work\\DigiByte\\digiandroid\\app\\CMakeLists.txt",
+    "tag": "digibyteDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\Work\\DigiByte\\digiandroid\\app\\CMakeLists.txt",
+    "tag": "digibyteDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\Work\\DigiByte\\digiandroid\\app\\CMakeLists.txt",
+    "tag": "digibyteDebug|x86",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

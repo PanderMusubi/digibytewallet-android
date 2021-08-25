@@ -1,9 +1,9 @@
 package io.digibyte.presenter.activities;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import io.digibyte.R;
 import io.digibyte.databinding.ActivityPinTemplateBinding;

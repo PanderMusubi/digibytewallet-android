@@ -1,9 +1,9 @@
 package io.digibyte.tools.database;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
-@Database(entities = {DigiTransaction.class}, version = 6)
+@Database(entities = {DigiTransaction.class}, version = 6, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract TransactionDao transactionDao();
 }

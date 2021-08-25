@@ -1,0 +1,228 @@
+{
+  "abi": "ARMEABI_V7A",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+  "cxxBuildFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+  "abiPlatformVersion": 17,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cxx\\digibyteDebug\\armeabi-v7a",
+    "cmakeArtifactsBaseFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a",
+      "cmakeToolchain": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "-DBITCOIN_TESTNET\u003d0"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\prefab\\armeabi-v7a\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-17"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj\\armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj\\armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "17"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\armeabi-v7a\\cmake_server_log.txt"
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang"
+    ],
+    "cFlagsList": [
+      "-DBITCOIN_TESTNET\u003d0"
+    ],
+    "cppFlagsList": [],
+    "variantName": "digibyteDebug",
+    "objFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj",
+    "soFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [
+      "core-lib"
+    ],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\Work\\DigiByte\\digiandroid\\app",
+      "moduleBuildFile": "D:\\Work\\DigiByte\\digiandroid\\app\\build.gradle",
+      "makeFile": "D:\\Work\\DigiByte\\digiandroid\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "D:\\Work\\DigiByte\\digiandroid",
+        "cxxFolder": "D:\\Work\\DigiByte\\digiandroid\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\Work\\DigiByte\\digiandroid\\.cxx",
+        "sdkFolder": "E:\\adt-bundle-windows-x86_64-20140321\\sdk",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabDirectory": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\prefab"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "D:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\prefab\\armeabi-v7a"
+}

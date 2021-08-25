@@ -3,7 +3,7 @@ package io.digibyte.tools.animation;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.SpannableString;
 
 import io.digibyte.presenter.customviews.BRDialogView;

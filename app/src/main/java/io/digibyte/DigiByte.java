@@ -5,11 +5,11 @@ import android.app.Application;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.multidex.MultiDexApplication;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.multidex.MultiDexApplication;
 
-import com.crashlytics.android.Crashlytics;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.evernote.android.job.Job;
 import com.evernote.android.job.JobCreator;
 import com.evernote.android.job.JobManager;
@@ -26,7 +26,6 @@ import io.digibyte.tools.manager.BRSharedPrefs;
 import io.digibyte.tools.security.BRKeyStore;
 import io.digibyte.tools.util.BRConstants;
 import io.digibyte.wallet.BRWalletManager;
-import io.fabric.sdk.android.Fabric;
 
 
 /**
@@ -88,7 +87,7 @@ public class DigiByte extends MultiDexApplication implements
     public void onCreate() {
         super.onCreate();
         SoLoader.init(this, false);
-        Fabric.with(this, new Crashlytics());
+        // Fabric.with(this, new Crashlytics());
         application = this;
         activeActivity = null;
         registerActivityLifecycleCallbacks(this);
