@@ -226,7 +226,7 @@
             tools:node="remove"/>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="io.digibyte.fileprovider"
             android:grantUriPermissions="true">
             <meta-data
