@@ -11,7 +11,7 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    compileSdkVersion = 28
+    compileSdkVersion = 29
 
     dataBinding {
         enabled = true
@@ -21,7 +21,7 @@ android {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
         applicationId = 'io.digibyte'
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 2407
         versionName "2.0.9b2407"
         multiDexEnabled true

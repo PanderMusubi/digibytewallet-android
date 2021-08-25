@@ -1,3 +1,0 @@
-D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/core-lib.dir
-D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
