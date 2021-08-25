@@ -1,0 +1,353 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/Work/DigiByte/digiandroid/app",
+  "buildDirectory": "D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_C_FLAGS\u003d-DBITCOIN_TESTNET\u003d0",
+    "-DCMAKE_FIND_ROOT_PATH\u003dD:\\Work\\DigiByte\\digiandroid\\app\\.cxx\\cmake\\digibyteDebug\\prefab\\armeabi-v7a\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003dE:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529",
+    "-DANDROID_PLATFORM\u003dandroid-17",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\adt-bundle-windows-x86_64-20140321\\sdk\\ndk\\21.4.7075529",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj\\armeabi-v7a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\Work\\DigiByte\\digiandroid\\app\\build\\intermediates\\cmake\\digibyteDebug\\obj\\armeabi-v7a",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\adt-bundle-windows-x86_64-20140321\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d17",
+    "-DANDROID_TOOLCHAIN\u003dclang"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/build/cmake/platforms.cmake","E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/digibyteDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"E:/adt-bundle-windows-x86_64-20140321/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/Work/DigiByte/digiandroid/app","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a","name":"Project","sourceDirectory":"D:/Work/DigiByte/digiandroid/app","targets":[{"artifacts":["D:/Work/DigiByte/digiandroid/app/build/intermediates/cmake/digibyteDebug/obj/armeabi-v7a/libcore-lib.so"],"buildDirectory":"D:/Work/DigiByte/digiandroid/app/.cxx/cmake/digibyteDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC  ","defines":["core_lib_EXPORTS"],"includePath":[{"path":"D:/Work/DigiByte/digiandroid/app/src/main/jni/digibytewallet-core"},{"path":"D:/Work/DigiByte/digiandroid/app/src/main/secp/secp256k1/include"},{"path":"D:/Work/DigiByte/digiandroid/app/src/main/secp/secp256k1/src"},{"path":"D:/Work/DigiByte/digiandroid/app/src/main/secp/secp256k1"},{"path":"D:/Work/DigiByte/digiandroid/app/src/main/secp"}],"isGenerated":false,"language":"C","sources":["src/main/jni/digibytewallet-core/BRAddress.c","src/main/jni/digibytewallet-core/BRBase58.c","src/main/jni/digibytewallet-core/BRBech32.c","src/main/jni/digibytewallet-core/BRBIP32Sequence.c","src/main/jni/digibytewallet-core/BRBIP38Key.c","src/main/jni/digibytewallet-core/BRBIP39Mnemonic.c","src/main/jni/digibytewallet-core/BRBloomFilter.c","src/main/jni/digibytewallet-core/BRCrypto.c","src/main/jni/digibytewallet-core/BRDigiAsset.c","src/main/jni/digibytewallet-core/BRKey.c","src/main/jni/digibytewallet-core/BRMerkleBlock.c","src/main/jni/digibytewallet-core/BRPaymentProtocol.c","src/main/jni/digibytewallet-core/BRPeer.c","src/main/jni/digibytewallet-core/BRPeerManager.c","src/main/jni/digibytewallet-core/BRSet.c","src/main/jni/digibytewallet-core/BRTransaction.c","src/main/jni/digibytewallet-core/BRWallet.c","src/main/jni/digibytewallet-core/crypto/groestl.c","src/main/jni/digibytewallet-core/crypto/qubit.c","src/main/jni/digibytewallet-core/crypto/skein.c","src/main/jni/digibytewallet-core/crypto/odocrypt.c","src/main/jni/digibytewallet-core/crypto/sha3/aes_helper.c","src/main/jni/digibytewallet-core/crypto/sha3/blake.c","src/main/jni/digibytewallet-core/crypto/sha3/bmw.c","src/main/jni/digibytewallet-core/crypto/sha3/BRKeccak-800-SnP.c","src/main/jni/digibytewallet-core/crypto/sha3/cubehash.c","src/main/jni/digibytewallet-core/crypto/sha3/groestl.c","src/main/jni/digibytewallet-core/crypto/sha3/keccak.c","src/main/jni/digibytewallet-core/crypto/sha3/skein.c","src/main/jni/digibytewallet-core/crypto/sha3/sph_luffa.c","src/main/jni/digibytewallet-core/crypto/sha3/sph_shavite.c","src/main/jni/digibytewallet-core/crypto/sha3/sph_simd.c","src/main/jni/digibytewallet-core/crypto/sha3/sph_echo.c","src/main/jni/transition/core.c","src/main/jni/transition/JNIBase58.c","src/main/jni/transition/JNIBIP32Sequence.c","src/main/jni/transition/JNIKey.c","src/main/jni/transition/PeerManager.c","src/main/jni/transition/wallet.c"]},{"isGenerated":false,"sources":["src/main/jni/digibytewallet-core/BRAddress.h","src/main/jni/digibytewallet-core/BRArray.h","src/main/jni/digibytewallet-core/BRBase58.h","src/main/jni/digibytewallet-core/BRBech32.h","src/main/jni/digibytewallet-core/BRBIP32Sequence.h","src/main/jni/digibytewallet-core/BRBIP38Key.h","src/main/jni/digibytewallet-core/BRBIP39Mnemonic.h","src/main/jni/digibytewallet-core/BRBIP39WordsEn.h","src/main/jni/digibytewallet-core/BRBloomFilter.h","src/main/jni/digibytewallet-core/BRChainParams.h","src/main/jni/digibytewallet-core/BRCrypto.h","src/main/jni/digibytewallet-core/BRDigiAsset.h","src/main/jni/digibytewallet-core/BRInt.h","src/main/jni/digibytewallet-core/BRKey.h","src/main/jni/digibytewallet-core/BRMerkleBlock.h","src/main/jni/digibytewallet-core/BRPaymentProtocol.h","src/main/jni/digibytewallet-core/BRPeer.h","src/main/jni/digibytewallet-core/BRPeerManager.h","src/main/jni/digibytewallet-core/BRSet.h","src/main/jni/digibytewallet-core/BRTransaction.h","src/main/jni/digibytewallet-core/BRWallet.h","src/main/jni/digibytewallet-core/crypto/sha256.h","src/main/jni/digibytewallet-core/crypto/groestl.h","src/main/jni/digibytewallet-core/crypto/qubit.h","src/main/jni/digibytewallet-core/crypto/skein.h","src/main/jni/digibytewallet-core/crypto/odocrypt.h","src/main/jni/digibytewallet-core/crypto/sha3/hashblock.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_types.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_blake.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_bmw.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_cubehash.h","src/main/jni/digibytewallet-core/crypto/sha3/BRKeccak-800-SnP.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_groestl.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_keccak.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_skein.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_luffa.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_shavite.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_simd.h","src/main/jni/digibytewallet-core/crypto/sha3/sph_echo.h","src/main/jni/transition/core.h","src/main/jni/transition/JNIBase58.h","src/main/jni/transition/JNIBIP32Sequence.h","src/main/jni/transition/JNIKey.h","src/main/jni/transition/PeerManager.h","src/main/jni/transition/wallet.h"]}],"fullName":"libcore-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-landroid -llog -latomic -lm","linkerLanguage":"C","name":"core-lib","sourceDirectory":"D:/Work/DigiByte/digiandroid/app","sysroot":"E:/adt-bundle-windows-x86_64-20140321/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
