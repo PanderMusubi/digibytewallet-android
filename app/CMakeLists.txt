@@ -47,6 +47,8 @@ add_library( # Specifies the name of the library.
              src/main/jni/digibytewallet-core/BRChainParams.h
              src/main/jni/digibytewallet-core/BRCrypto.c
              src/main/jni/digibytewallet-core/BRCrypto.h
+             src/main/jni/digibytewallet-core/BRDigiAsset.c
+             src/main/jni/digibytewallet-core/BRDigiAsset.h
              src/main/jni/digibytewallet-core/BRInt.h
              src/main/jni/digibytewallet-core/BRKey.c
              src/main/jni/digibytewallet-core/BRKey.h
@@ -71,9 +73,12 @@ add_library( # Specifies the name of the library.
              src/main/jni/digibytewallet-core/crypto/qubit.h
              src/main/jni/digibytewallet-core/crypto/skein.c
              src/main/jni/digibytewallet-core/crypto/skein.h
+             src/main/jni/digibytewallet-core/crypto/odocrypt.c
+             src/main/jni/digibytewallet-core/crypto/odocrypt.h
              src/main/jni/digibytewallet-core/crypto/sha3/aes_helper.c
              src/main/jni/digibytewallet-core/crypto/sha3/blake.c
              src/main/jni/digibytewallet-core/crypto/sha3/bmw.c
+             src/main/jni/digibytewallet-core/crypto/sha3/BRKeccak-800-SnP.c
              src/main/jni/digibytewallet-core/crypto/sha3/cubehash.c
              src/main/jni/digibytewallet-core/crypto/sha3/groestl.c
              src/main/jni/digibytewallet-core/crypto/sha3/hashblock.h
@@ -83,6 +88,7 @@ add_library( # Specifies the name of the library.
              src/main/jni/digibytewallet-core/crypto/sha3/sph_blake.h
              src/main/jni/digibytewallet-core/crypto/sha3/sph_bmw.h
              src/main/jni/digibytewallet-core/crypto/sha3/sph_cubehash.h
+             src/main/jni/digibytewallet-core/crypto/sha3/BRKeccak-800-SnP.h
              src/main/jni/digibytewallet-core/crypto/sha3/sph_groestl.h
              src/main/jni/digibytewallet-core/crypto/sha3/sph_keccak.h
              src/main/jni/digibytewallet-core/crypto/sha3/sph_skein.h
