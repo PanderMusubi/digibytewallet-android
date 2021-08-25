@@ -96,7 +96,7 @@ Java_io_digibyte_tools_security_BitcoinUrlHandler_parsePaymentRequest(JNIEnv *en
     }
 
     //Create serialized paymentProtocolPayment
-    BRAddress changeAddress = BRWalletReceiveAddress(_wallet);
+    BRAddress changeAddress = BRWalletReceiveAddress(_wallet, 0);
     BRTransaction *tx = BRWalletCreateTxForOutputs(_wallet, nativeRequest->details->outputs,
                                                    nativeRequest->details->outCount);
 
