@@ -819,7 +819,7 @@ Java_io_digibyte_wallet_BRWalletManager_addInputToPrivKeyTx(JNIEnv *env, jobject
 
     BRTransactionAddInput(_privKeyTx, reversedHash, (uint32_t) vout, (uint64_t) amount,
                           (const uint8_t *) rawScript,
-                          (size_t) scriptLength, NULL, 0, TXIN_SEQUENCE);
+                          (size_t) scriptLength, NULL, 0, NULL, 0, TXIN_SEQUENCE);
 }
 
 JNIEXPORT jobject JNICALL Java_io_digibyte_wallet_BRWalletManager_getPrivKeyObject(JNIEnv *env,
