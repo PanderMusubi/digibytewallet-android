@@ -2,7 +2,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <variable name="adapter" type="android.support.v4.app.FragmentStatePagerAdapter"/>
+        <variable name="adapter" type="androidx.fragment.app.FragmentStatePagerAdapter"/>
         <variable name="transactionNumber" type="Integer"/>
     </data>
 
@@ -14,7 +14,7 @@
         android:layout_gravity="bottom"
         android:filterTouchesWhenObscured="true">
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/tx_list_pager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

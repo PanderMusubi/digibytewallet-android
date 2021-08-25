@@ -1,6 +1,6 @@
 package io.digibyte.presenter.activities.models;
 
-import android.databinding.BaseObservable;
+import androidx.databinding.BaseObservable;
 
 import io.digibyte.R;
 

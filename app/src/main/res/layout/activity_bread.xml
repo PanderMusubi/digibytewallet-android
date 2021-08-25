@@ -4,11 +4,11 @@
 
     <data>
 
-        <variable name="pagerAdapter" type="android.support.v4.view.PagerAdapter"/>
+        <variable name="pagerAdapter" type="androidx.viewpager.widget.PagerAdapter"/>
 
     </data>
 
-    <android.support.v4.widget.DrawerLayout
+    <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +18,7 @@
         <FrameLayout android:layout_width="match_parent"
                      android:layout_height="match_parent">
 
-            <android.support.design.widget.CoordinatorLayout
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
                 android:id="@+id/main_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -26,12 +26,12 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <android.support.design.widget.AppBarLayout android:id="@+id/toolbar_layout"
+                <com.google.android.material.appbar.AppBarLayout android:id="@+id/toolbar_layout"
                                                             android:layout_width="match_parent"
                                                             android:layout_height="wrap_content"
                                                             android:background="@color/background">
 
-                    <android.support.design.widget.CollapsingToolbarLayout
+                    <com.google.android.material.appbar.CollapsingToolbarLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:animateLayoutChanges="true"
@@ -70,9 +70,9 @@
 
                         </LinearLayout>
 
-                    </android.support.design.widget.CollapsingToolbarLayout>
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-                </android.support.design.widget.AppBarLayout>
+                </com.google.android.material.appbar.AppBarLayout>
 
                 <LinearLayout android:id="@+id/content_container"
                               android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                                   android:singleLine="true"
                                   android:textColor="@color/white" android:textSize="16sp"/>
 
-                        <android.support.v7.widget.AppCompatImageView android:layout_width="24dp"
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="24dp"
                                                                       android:visibility="gone"
                                                                       android:layout_marginTop="4dp"
                                                                       android:layout_height="24dp"
@@ -125,14 +125,14 @@
                         app:tabGravity="fill"
                         app:tabMode="fixed"/>
 
-                    <android.support.v4.view.ViewPager android:id="@+id/tx_pager"
+                    <androidx.viewpager.widget.ViewPager android:id="@+id/tx_pager"
                                                        android:layout_width="match_parent"
                                                        android:layout_height="wrap_content"
                                                        android:layout_weight="1"
                                                        android:adapter="@{pagerAdapter}"/>
                 </LinearLayout>
 
-            </android.support.design.widget.CoordinatorLayout>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
             <io.digibyte.presenter.customviews.BRRelativeLayout
                 android:id="@+id/bottom_navigation_layout"
@@ -175,7 +175,7 @@
 
                 </LinearLayout>
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/main_action"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
@@ -185,7 +185,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     app:srcCompat="@drawable/ic_main_action"/>
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/digiid_button"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
@@ -196,7 +196,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     app:srcCompat="@drawable/ic_digiid"/>
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/qr_button"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
@@ -237,7 +237,7 @@
                         android:paddingStart="22dp"
                         android:paddingTop="12dp">
 
-                        <android.support.v7.widget.AppCompatImageView
+                        <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="45dp"
                             android:layout_height="65dp"
                             android:layout_marginEnd="22dp"
@@ -266,7 +266,7 @@
                         android:paddingStart="22dp"
                         android:paddingTop="12dp">
 
-                        <android.support.v7.widget.AppCompatImageView
+                        <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="45dp"
                             android:layout_height="45dp"
                             android:layout_marginEnd="22dp"
@@ -293,7 +293,7 @@
                         android:paddingStart="22dp"
                         android:paddingTop="12dp">
 
-                        <android.support.v7.widget.AppCompatImageView
+                        <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="45dp"
                             android:layout_height="45dp"
                             android:layout_marginEnd="22dp"
@@ -318,7 +318,7 @@
                          android:orientation="vertical"
                          android:paddingTop="36dp">
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="100dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
@@ -331,6 +331,6 @@
         </FrameLayout>
 
 
-    </android.support.v4.widget.DrawerLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
 
 </layout>

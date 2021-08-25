@@ -38,7 +38,7 @@
                 android:layout_marginTop="28dp"
                 android:orientation="horizontal">
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/left_graphic"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                     app:lottie_loop="false"/>
 
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/right_graphic"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

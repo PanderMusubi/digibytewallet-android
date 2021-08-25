@@ -2,7 +2,7 @@ package io.digibyte.presenter.activities;
 
 import android.app.PendingIntent;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
@@ -12,7 +12,7 @@ import android.nfc.tech.Ndef;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.WindowManager;
 

@@ -26,7 +26,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/header"/>
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/currency_checkmark"
             android:layout_width="50dp"
             android:layout_height="50dp"

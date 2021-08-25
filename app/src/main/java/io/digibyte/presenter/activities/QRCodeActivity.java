@@ -2,12 +2,12 @@ package io.digibyte.presenter.activities;
 
 import android.animation.ObjectAnimator;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 import io.digibyte.R;

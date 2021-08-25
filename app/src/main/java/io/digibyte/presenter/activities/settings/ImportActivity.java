@@ -2,7 +2,7 @@ package io.digibyte.presenter.activities.settings;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.widget.Button;
 import android.widget.ImageButton;
 

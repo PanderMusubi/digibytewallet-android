@@ -2,7 +2,7 @@ package io.digibyte.presenter.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import io.digibyte.R;
 import io.digibyte.tools.animation.BRAnimator;

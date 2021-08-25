@@ -19,7 +19,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <android.support.v7.widget.AppCompatImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:elevation="8dp"
@@ -55,7 +55,7 @@
                         android:layout_height="match_parent"
                         android:text="@string/TouchIdSettings.switchLabel.android"/>
 
-                    <android.support.v7.widget.SwitchCompat
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/toggleButton"
                         android:layout_width="75dp"
                         android:layout_marginEnd="16dp"

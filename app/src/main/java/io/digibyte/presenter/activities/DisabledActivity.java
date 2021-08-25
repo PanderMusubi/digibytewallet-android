@@ -3,7 +3,7 @@ package io.digibyte.presenter.activities;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import android.widget.Button;
 import android.widget.TextView;
 

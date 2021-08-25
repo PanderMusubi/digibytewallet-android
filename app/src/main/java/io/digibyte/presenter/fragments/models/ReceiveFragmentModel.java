@@ -1,7 +1,7 @@
 package io.digibyte.presenter.fragments.models;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;

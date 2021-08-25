@@ -238,7 +238,7 @@
 
             </LinearLayout>
 
-            <android.support.v7.widget.AppCompatImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"

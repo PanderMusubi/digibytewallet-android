@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,11 +15,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import io.digibyte.R;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
 import io.digibyte.presenter.activities.util.BRActivity;
 import io.digibyte.presenter.entities.BRSettingsItem;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
