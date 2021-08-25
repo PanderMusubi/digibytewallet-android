@@ -1,1 +1,0 @@
-D:\Work\DigiByte\digiandroid\app\CMakeLists.txt

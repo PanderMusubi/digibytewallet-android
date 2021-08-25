@@ -1,1 +1,0 @@
-D:\Work\DigiByte\digiandroid\app\build\intermediates\cmake\digibyteDebug\obj\x86

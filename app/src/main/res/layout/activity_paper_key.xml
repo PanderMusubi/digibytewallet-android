@@ -3,7 +3,7 @@
 
     <data>
         <variable name="pageChangeListener"
-                  type="android.support.v4.view.ViewPager.OnPageChangeListener"/>
+                  type="androidx.viewpager.widget.ViewPager.OnPageChangeListener"/>
         <variable name="callback"
                   type="io.digibyte.presenter.activities.callbacks.ActivityPaperKeyCallback"/>
         <variable name="adapter" type="io.digibyte.presenter.activities.PaperKeyActivity.WordPagerAdapter"/>
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:text="@string/WritePaperPhrase.instruction"/>
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/phrase_words_pager"
             android:layout_width="match_parent"
             android:layout_height="160dp"
