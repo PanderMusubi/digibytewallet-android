@@ -9,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.multidex.MultiDexApplication;
 
-import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.evernote.android.job.Job;
 import com.evernote.android.job.JobCreator;
 import com.evernote.android.job.JobManager;
