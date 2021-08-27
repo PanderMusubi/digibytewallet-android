@@ -5,7 +5,6 @@ import android.content.Context;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
-import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.platform.entities.TxMetaData;
 import com.platform.tools.KVStoreManager;
 
@@ -167,8 +166,7 @@ public class PostAuth {
             Arrays.fill(seed, (byte) 0);
             seed = null;
         } catch (Exception e) {
-            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-            crashlytics.recordException(e);
+            Log.e(TAG, "onPublishTxAuth: ", e);
         }
     }
 

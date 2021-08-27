@@ -1,6 +1,6 @@
 package io.digibyte.tools.manager;
 
-import com.google.firebase.crashlytics.FirebaseCrashlytics;
+import android.util.Log;
 
 /**
  * BreadWallet
@@ -31,12 +31,10 @@ public class BRReportsManager {
     private static final String TAG = BRReportsManager.class.getName();
 
     public static void reportBug(RuntimeException er, boolean crash) {
-        FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-        crashlytics.recordException(er);
+        Log.e(TAG, "reportBug: ", er);
     }
 
     public static void reportBug(Exception er) {
-        FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-        crashlytics.recordException(er);
+        Log.e(TAG, "reportBug: ", er);
     }
 }

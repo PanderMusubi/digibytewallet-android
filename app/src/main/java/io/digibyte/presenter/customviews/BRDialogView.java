@@ -15,8 +15,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.firebase.crashlytics.FirebaseCrashlytics;
-
 import io.digibyte.R;
 import io.digibyte.tools.manager.BRReportsManager;
 import io.digibyte.tools.util.Utils;
@@ -108,8 +106,7 @@ public class BRDialogView extends DialogFragment {
         try {
             dismissAllowingStateLoss();
         } catch (IllegalStateException e) {
-            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-            crashlytics.recordException(e);
+            Log.e(TAG, "onDestroyView: ", e);
         }
     }
 
@@ -164,8 +161,7 @@ public class BRDialogView extends DialogFragment {
         try {
             dismissAllowingStateLoss();
         } catch(IllegalArgumentException e) {
-            FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-            crashlytics.recordException(e);
+            Log.e(TAG, "dismissWithAnimation: ", e);
         }
     }
 }
