@@ -94,7 +94,7 @@ import io.digibyte.tools.util.Utils;
 
 public class BRWalletManager {
     private static final String TAG = BRWalletManager.class.getName();
-    private static String DIGIEXPLORER_URL = "https://explorer-1.us.digibyteservers.io";
+    private static String DIGIEXPLORER_URL = "https://digiexplorer.info";
     private static final String DIGIEXPLORER_URL_FALLBACK = "https://explorer-2.us.digibyteservers.io";
     private static final String DIGIEXPLORER_URL_FALLBACK_2 = "https://digiexplorer.info/";
 
